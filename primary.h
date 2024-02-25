@@ -18,7 +18,7 @@ void print(const Args &... args) {
     for (const auto arg: argArray) {
         std::cout << *arg << " ";
     }
-//    std::cout << std::endl;
+    std::cout << std::endl;
 }
 
 #endif //P1_PRIMARY_H
